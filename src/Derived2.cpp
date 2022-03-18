@@ -8,6 +8,13 @@
 Derived2::Derived2(string a):Base(a) {
 
 }
+
+void Derived2::setC(string _c) {
+    c=_c;
+}
+string Derived2::getC() {
+    return c;
+}
 void Derived2::doSomething() {
     cout<<"Derived2"<<endl;
 }

@@ -7,9 +7,12 @@
 #include "Base.h"
 
 class Derived2 :public Base{
-
+private:
+    string c;
 public:
     Derived2(string ="");
+    void setC(string);
+    string getC();
     void doSomething() override;
     string toString();
     ~Derived2();

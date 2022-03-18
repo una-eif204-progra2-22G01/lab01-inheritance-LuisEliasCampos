@@ -7,6 +7,13 @@
 Derived1::Derived1(string a):Base(a) {
 
 }
+
+void Derived1::setB(string _b) {
+    b=_b;
+}
+string Derived1::getB() {
+    return b;
+}
 void Derived1::doSomething() {
     cout<<"Derived1"<<endl;
 }
