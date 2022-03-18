@@ -10,7 +10,7 @@ class Derived2 :public Base{
 private:
     string c;
 public:
-    Derived2(string ="");
+    Derived2(string ="",string="");
     void setC(string);
     string getC();
     void doSomething() override;

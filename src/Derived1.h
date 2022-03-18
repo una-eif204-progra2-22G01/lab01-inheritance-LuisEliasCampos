@@ -10,7 +10,7 @@ class Derived1: public Base {
 private:
     string b;
 public:
-    Derived1(string );
+    Derived1(string,string="" );
     void setB(string);
     string getB();
     void doSomething() override;

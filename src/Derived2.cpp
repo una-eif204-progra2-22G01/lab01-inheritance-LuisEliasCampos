@@ -5,8 +5,8 @@
 #include "Derived2.h"
 
 
-Derived2::Derived2(string a):Base(a) {
-
+Derived2::Derived2(string a,string c):Base(a) {
+    this->c =c;
 }
 
 void Derived2::setC(string _c) {

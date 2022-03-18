@@ -4,8 +4,8 @@
 
 #include "Derived1.h"
 
-Derived1::Derived1(string a):Base(a) {
-
+Derived1::Derived1(string a,string b):Base(a) {
+    this->b=b;
 }
 
 void Derived1::setB(string _b) {
